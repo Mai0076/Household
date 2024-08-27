@@ -5,6 +5,13 @@
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
+    "@fullcalendar/core": "^6.1.15",
+    "@fullcalendar/daygrid": "^6.1.15",
+    "@fullcalendar/interaction": "^6.1.15",
+    "@fullcalendar/list": "^6.1.15",
+    "@fullcalendar/react": "^6.1.15",
+    "@fullcalendar/timegrid": "^6.1.15",
+    "@headlessui/react": "^2.1.3",
     "@mui/icons-material": "^5.16.7",
     "@mui/material": "^5.16.7",
     "@testing-library/jest-dom": "^5.17.0",
@@ -14,6 +21,7 @@
     "@types/node": "^16.18.105",
     "@types/react": "^18.3.4",
     "@types/react-dom": "^18.3.0",
+    "fullcalendar": "^6.1.15",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.1",
@@ -44,5 +52,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
   }
 }
