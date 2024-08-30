@@ -53,7 +53,7 @@ export default function AppLayout() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap component="div">
-            Household-App
+            TrainingCamp-App
           </Typography>
         </Toolbar>
       </AppBar>
