@@ -10,6 +10,7 @@ import { ThemeProvider } from "@emotion/react";
 import { CssBaseline } from "@mui/material";
 import Result from "./pages/Result";
 import Food from "./pages/Food";
+import Food2 from "./pages/Food2";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path="/report" element={<Report />} />
             {/* <Route path="/result" element={<Result />} />*/}
-            <Route path="/food" element={<Food />} />
+            <Route path="/food" element={<Food2 />} />
             <Route path="*" element={<NoMatch />} />
           </Route>
         </Routes>
