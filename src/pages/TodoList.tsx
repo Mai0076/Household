@@ -37,7 +37,7 @@ const TodoList = (props: Props) => {
             key={todo.id}
             className="flex bg-orange-200 rounded-md mt-2 mb-2 p-2 justify-between"
           >
-            <li className="font-medium">✅ {todo.title}</li>
+            <li className="font-medium"> {todo.title}</li>
             <span
               className="cursor-pointer"
               onClick={() => handleDelete(todo.id)}
