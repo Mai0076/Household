@@ -14,6 +14,7 @@ import MailIcon from "@mui/icons-material/Mail";
 import HomeIcon from "@mui/icons-material/Home";
 import SignalCellularAltIcon from "@mui/icons-material/SignalCellularAlt";
 import BorderColorIcon from "@mui/icons-material/BorderColor";
+import RestaurantIcon from "@mui/icons-material/Restaurant";
 import React, { CSSProperties } from "react";
 import { NavLink } from "react-router-dom";
 
@@ -38,6 +39,7 @@ const SideBar = ({
     { text: "Home", path: "/", icon: HomeIcon },
     { text: "Report", path: "/report", icon: SignalCellularAltIcon },
     { text: "Result", path: "/result", icon: BorderColorIcon },
+    { text: "Food", path: "/food", icon: RestaurantIcon },
   ];
 
   const baseLinkStyle: CSSProperties = {
